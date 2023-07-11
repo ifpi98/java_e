@@ -1,0 +1,8 @@
+package chap01;
+
+public class PrinterExample {
+	
+	Printer printer = new Printer();
+	printer.println
+
+}
