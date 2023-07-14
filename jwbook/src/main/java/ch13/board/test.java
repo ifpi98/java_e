@@ -1,29 +1,25 @@
-package javaproject.testdb;
+package ch13.board;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 //import com.mysql.jdbc.Statement;
 
-public class MySQLDbTest {
+public class test {
 
 	public static void main(String[] args) throws SQLException {
 
 		
-		String url = "jdbc:mysql://localhost:3306/testdb?useSSL=false";
-		String url = "jdbc:mysql://localhost:3306/testdb?useSSL=false";
-		//		String url = "jdbc:oracle:thin:@localhost:1521/xe";
+		String url = "jdbc:mysql://localhost:3306/basicjsp?useSSL=false";
+//		String url = "jdbc:oracle:thin:@localhost:1521/xe";
 		
 //		String user = "scott";
-		String user = "root";
+//		String user = "root";
+		String user = "jspid";
 //		String password = "TIGER";
-		String password = "1234";
+//		String password = "1234";
+		String password = "jsppass";
 //		String sql = "INSERT INTO books (id, title, author, price, qty) values (?, ?, ?, ?, ?)";
-//		String sql = "SELECT * FROM books";
+//		String sql = "SELECT * FROM board";
 //		String sql = "UPDATE books SET id=?, title=?, author=?, price=?, qty=? where id=?";
 		String sql = "DELETE from books where id=?";
 							
