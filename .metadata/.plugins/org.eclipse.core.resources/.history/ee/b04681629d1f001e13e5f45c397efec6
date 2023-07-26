@@ -1,7 +1,0 @@
-package chap01;
-
-import Cellphone;
-
-public class DmbCellphone extends Cellphone {
-
-}
