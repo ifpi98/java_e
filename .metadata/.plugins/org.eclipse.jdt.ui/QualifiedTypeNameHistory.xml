@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.security.Identity"/>
-    <fullyQualifiedTypeName name="javax.security.auth.login.LoginContext"/>
-    <fullyQualifiedTypeName name="chap01.MemberService"/>
-    <fullyQualifiedTypeName name="chap01.PrinterExample"/>
-    <fullyQualifiedTypeName name="chap01.Printer"/>
-    <fullyQualifiedTypeName name="chap01.DmbCellPhone"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -48,7 +34,6 @@
     <fullyQualifiedTypeName name="reference.Subject"/>
     <fullyQualifiedTypeName name="hiding.BirthDay"/>
     <fullyQualifiedTypeName name="thisex.Birthday"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
     <fullyQualifiedTypeName name="cooperation.Student"/>
     <fullyQualifiedTypeName name="cooperation.Subway"/>
     <fullyQualifiedTypeName name="cooperation.Taxi"/>
@@ -59,5 +44,20 @@
     <fullyQualifiedTypeName name="char"/>
     <fullyQualifiedTypeName name="array.Student"/>
     <fullyQualifiedTypeName name="array.ArrayCopy"/>
+    <fullyQualifiedTypeName name="arraylist.Student"/>
+    <fullyQualifiedTypeName name="arraylist.Subject"/>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.AnimalTest"/>
+    <fullyQualifiedTypeName name="inheritance.Animal"/>
+    <fullyQualifiedTypeName name="inheritance.CustomerTest"/>
+    <fullyQualifiedTypeName name="inheritance.VIPCustomer"/>
+    <fullyQualifiedTypeName name="inheritance.GoldCustomer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
+    <fullyQualifiedTypeName name="inheritance.Human"/>
+    <fullyQualifiedTypeName name="template.AICar"/>
+    <fullyQualifiedTypeName name="template.Player"/>
+    <fullyQualifiedTypeName name="template.AdvancedLevel"/>
+    <fullyQualifiedTypeName name="template.SuperLevel"/>
+    <fullyQualifiedTypeName name="template.BeginnerLevel"/>
 </qualifiedTypeNameHistroy>
