@@ -4,5 +4,15 @@
     <typeInfo handle="=Chapter9/src&lt;abstractex{Computer.java[Computer" modifiers="1025" timestamp="1690526574649"/>
     <typeInfo handle="=Chapter9/src&lt;abstractex{NoteBook.java[NoteBook" modifiers="1025" timestamp="1690526623848"/>
     <typeInfo handle="=Chapter9/src&lt;template{Car.java[Car" modifiers="1025" timestamp="1690529538574"/>
-    <typeInfo handle="=Chapter9/src&lt;template{PlayerLevel.java[PlayerLevel" modifiers="1025" timestamp="1690530902941"/>
+    <typeInfo handle="=Chapter9/src&lt;template{PlayerLevel.java[PlayerLevel" modifiers="1025" timestamp="1690532720594"/>
+    <typeInfo handle="=chapter10/src&lt;Interfaceex{Calcular.java[Calcular" modifiers="1025" timestamp="1690766889929"/>
+    <typeInfo handle="=chapter10/C:\/Users\/학생\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.util.concurrent(ScheduledExecutorService.class[ScheduledExecutorService" modifiers="1537" timestamp="1682402758000"/>
+    <typeInfo handle="=chapter10/src&lt;scheduler{Scheduler.java[Scheduler" modifiers="513" timestamp="1690770481621"/>
+    <typeInfo handle="=chapter10/src&lt;Interfaceex{Sell.java[Sell" modifiers="513" timestamp="1690774350893"/>
+    <typeInfo handle="=chapter10/src&lt;Interfaceex{X.java[X" modifiers="513" timestamp="1690774638066"/>
+    <typeInfo handle="=chapter10/src&lt;Interfaceex{Y.java[Y" modifiers="513" timestamp="1690774651827"/>
+    <typeInfo handle="=chapter10/src&lt;Interfaceex{MyInterface.java[MyInterface" modifiers="513" timestamp="1690774727996"/>
+    <typeInfo handle="=chapter10/src&lt;bookshelf{Queue.java[Queue" modifiers="513" timestamp="1690776183729"/>
+    <typeInfo handle="=chapter10/C:\/Users\/학생\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\/jre\/lib\/jrt-fs.jar`java.compiler=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;javax.lang.model.element(QualifiedNameable.class[QualifiedNameable" modifiers="1537" timestamp="1682402758000"/>
+    <typeInfo handle="=chapter10/src&lt;bookshelf{Shelf.java[Shelf" modifiers="1" timestamp="1690776062728"/>
 </typeInfoHistroy>
