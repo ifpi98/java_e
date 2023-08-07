@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import grade.BasicEvaluation;
 import grade.GradeEvaluation;
 import grade.MajorEvaluation;
+import grade.PassFailEvaluation;
 import school2.School2;
 import school2.Score2;
 import school2.Student2;
@@ -59,22 +60,51 @@ public class GenerateGradReport2 {
 	private void getScoreGrade(Student2 student, int subjectId) {
 		ArrayList<Score2> scoreList = student.getScoreList();
 		int majorId = student.getMajorSubject().getSubjectId();
-		
-		GradeEvaluation[] gradeEvaluations = {new BasicEvaluation(), new MajorEvaluation()};
-		for(int i = 0; i < scoreList.size(); i++) {
-			String grade;
+		//학점평가 클래스들
+		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation(), new PassFailEvaluation()};
+		for(int i=0; i<scoreList.size(); i++) {
+			//학생이 가진 점수들
 			Score2 score = scoreList.get(i);
-			if(score.getSubject().getSubjectId() == majorId) {
-				grade = gradeEvaluations[Define.SAB_TYPE].GradeEval(score.getPoint());
-			} else {
-				grade = gradeEvaluations[Define.AB_TYPE].GradeEval(score.getPoint());
+			if(score.getSubject().getSubjectId() == subjectId) {
+				//현재 학점을 산출할 과목
+				String grade;
+				//중점과목이면
+				if(score.getSubject().getSubjectId() == 3001) {
+					grade = gradeEvaluation[Define.PF_TYPE].GradeEval(score.getPoint());
+				} else if(score.getSubject().getSubjectId() == majorId) 
+						grade = gradeEvaluation[Define.SAB_TYPE].GradeEval(score.getPoint());
+				//중점과목이 아니면
+				else  grade = gradeEvaluation[Define.AB_TYPE].GradeEval(score.getPoint());
+				buffer.append(score.getPoint());
+				buffer.append("|");
+				buffer.append(grade);
+				buffer.append("|");
 			}
-			buffer.append(score.getPoint());
-			buffer.append("|");
-			buffer.append(grade);
-			buffer.append("|");
 		}
+		
 	}
+	
+//	private void getScoreGrade(Student2 student, int subjectId) {
+//		ArrayList<Score2> scoreList = student.getScoreList();
+//		int majorId = student.getMajorSubject().getSubjectId();
+//		
+//		GradeEvaluation[] gradeEvaluations = {new BasicEvaluation(), new MajorEvaluation()};
+//		for(int i = 0; i < scoreList.size(); i++) {
+//
+//			Score2 score = scoreList.get(i);
+//			String grade;
+//			if(score.getSubject().getSubjectId() == majorId) {
+//				
+//				grade = gradeEvaluations[Define.SAB_TYPE].GradeEval(score.getPoint());
+//			} else {
+//				grade = gradeEvaluations[Define.AB_TYPE].GradeEval(score.getPoint());
+//			}
+//			buffer.append(score.getPoint());
+//			buffer.append("|");
+//			buffer.append(grade);
+//			buffer.append("|");
+//		}
+//	}
 
 	private void makeHeader(Subject2 subject) {
 		buffer.append(GenerateGradReport2.LINE);

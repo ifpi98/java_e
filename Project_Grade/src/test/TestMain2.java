@@ -15,6 +15,7 @@ public class TestMain2 {
 	School2 goodSchool = School2.getInstance();
 	Subject2 korean;
 	Subject2 math;
+	Subject2 bDance;
 	
 	GenerateGradReport2 gradeReport = new GenerateGradReport2();
 	
@@ -27,8 +28,6 @@ public class TestMain2 {
 		
 		String report = test.gradeReport.getReport();
 		System.out.println(report);
-		
-		
 		
 	}
 
@@ -57,12 +56,19 @@ public class TestMain2 {
 		math.register(st4);
 		math.register(st5);
 		
+		bDance.register(st1);
+		bDance.register(st2);
+		bDance.register(st3);
+		
 		addScoreForStudent(st1, korean, 56);
 		addScoreForStudent(st1, math, 95);
+		addScoreForStudent(st1, bDance, 65);
 		addScoreForStudent(st2, korean, 98);
 		addScoreForStudent(st2, math, 95);
+		addScoreForStudent(st2, bDance, 75);
 		addScoreForStudent(st3, korean, 88);
 		addScoreForStudent(st3, math, 100);
+		addScoreForStudent(st3, bDance, 85);
 		addScoreForStudent(st4, korean, 95);
 		addScoreForStudent(st4, math, 89);
 		addScoreForStudent(st5, korean, 56);
@@ -80,9 +86,11 @@ public class TestMain2 {
 		
 		korean = new Subject2("국어", Define.SUBJECT_ID_KOREAN);
 		math = new Subject2("수학", Define.SUBJECT_ID_MATH);
+		bDance = new Subject2("방송 댄스", Define.SUBJECT_ID_BDANCE);
 		
 		goodSchool.addSubject(korean);
 		goodSchool.addSubject(math);
+		goodSchool.addSubject(bDance);
 		
 	}
 

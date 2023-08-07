@@ -43,7 +43,6 @@
     <fullyQualifiedTypeName name="school.Student"/>
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
     <fullyQualifiedTypeName name="school.Subject"/>
-    <fullyQualifiedTypeName name="grade.PassFailEvaluation"/>
     <fullyQualifiedTypeName name="school.Score"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="school.report.GenerateGradeReport"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.awt.Point"/>
     <fullyQualifiedTypeName name="school2.Score2"/>
     <fullyQualifiedTypeName name="test.TestMain2"/>
+    <fullyQualifiedTypeName name="grade.PassFailEvaluation"/>
 </qualifiedTypeNameHistroy>
