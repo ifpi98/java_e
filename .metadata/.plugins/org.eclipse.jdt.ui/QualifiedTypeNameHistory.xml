@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="lambda.MyNumber"/>
-    <fullyQualifiedTypeName name="lambda.StringConCatImpl"/>
-    <fullyQualifiedTypeName name="javax.swing.Spring"/>
-    <fullyQualifiedTypeName name="lambda.TestLambda.PrintString"/>
-    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
@@ -14,7 +8,6 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="exception.ThrowsException"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
     <fullyQualifiedTypeName name="exception.IDFormatException"/>
     <fullyQualifiedTypeName name="exception.IDFormatTest"/>
     <fullyQualifiedTypeName name="exception.PasswordException"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="school2.Score2"/>
     <fullyQualifiedTypeName name="test.TestMain2"/>
     <fullyQualifiedTypeName name="grade.PassFailEvaluation"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.Driver"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
 </qualifiedTypeNameHistroy>
